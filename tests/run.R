@@ -5,19 +5,39 @@ library(covr)
 library(diffobj)
 
 local({                                         # so we can use `on.exit`
-  old.opts <- diffobj_set_def_opts()
-  options(useFancyQuotes=FALSE)   # all.equals uses fancy quotes
-  options(diffobj.style=StyleAnsi8NeutralYb())  # force ANSI colors
-  options(diffobj.pager="off")                  # run tests without pager
-  options(width=80L)
+  # options that can't be reset to NULL...
 
-  # # covr options have no effect here; just recorded so we can use them ahead
-  # # of calling package_coverage()
+  no.null.opts <- c(
+    "warnPartialMatchArgs", "warnPartialMatchAttr", "warnPartialMatchDollar"
+  )
+  no.null.opt.list <- Map(getOption, no.null.opts)
+  no.null.nulls <- vapply(no.null.opt.list, is.null, logical(1L))
+  no.null.opt.list[no.null.nulls] <- FALSE
+  all.opts <- c(
+    list(
+      useFancyQuotes=FALSE,   # all.equals uses fancy quotes
+      diffobj.format="ansi8", # force ANSI colors
+      diffobj.color.mode="yb",# force yb
+      diffobj.pager="off",    # run tests without pager
+      width=80L,
+      encoding="UTF-8"        # so Gabor's name renders properly on win...
+    )
+  )
+  old.opts <- options(c(diffobj_set_def_opts(), all.opts))
+  options(
+    warnPartialMatchArgs=TRUE,
+    warnPartialMatchAttr=TRUE,
+    warnPartialMatchDollar=TRUE
+  )
+  old.opts <- c(old.opts, no.null.opt.list)
 
-  # options(covr.exclude_start="(?://|#)[[:space:]]*nocov[[:space:]]*start")
-  # options(covr.exclude_end="(?://|#)[[:space:]]*nocov[[:space:]]*end")
-  # options(covr.exclude_pattern="(?://|#)[[:space:]]*nocov")
-
+  # covr options have no effect here; just recorded so we can use them ahead
+  # of calling package_coverage() when running tests manually
+  if(FALSE) {
+    options(covr.exclude_start="(?://|#)[[:space:]]*nocov[[:space:]]*start")
+    options(covr.exclude_end="(?://|#)[[:space:]]*nocov[[:space:]]*end")
+    options(covr.exclude_pattern="(?://|#)[[:space:]]*nocov")
+  }
   on.exit(options(old.opts))
   test.res <- test_dir(
     "testthat",
@@ -38,6 +58,7 @@ local({                                         # so we can use `on.exit`
         "guide",
         "html",
         "limit",
+        "methods",
         "misc",
         "pager",
         "rdiff",
