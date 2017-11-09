@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -119,7 +119,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h3>Stage 3</h3>
 <p><code>testthat::compare</code> throws in the towel as soon as lengths are unequal:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">testthat::<span class="kw">compare</span>(A3, B3)</code></pre></div>
-<pre><code>## Lengths differ: 20 vs 21</code></pre>
+<pre><code>## Lengths differ: 20 is not 21</code></pre>
 <p><code>all.equal</code> does the same. <code>diffPrint</code> is unfazed:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">diffPrint</span>(A3, B3)</code></pre></div>
 <div class="diffobj_container light yb">
@@ -178,7 +178,7 @@ B4 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="fl">1e4<
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
