@@ -1,10 +1,10 @@
 ## ---- echo=FALSE---------------------------------------------------------
+library(diffobj)
 old.opt <- options(
   diffobj.disp.width=80, diffobj.pager="off", diffobj.format="html"
 )
 
 ## ---- results="asis"-----------------------------------------------------
-library(diffobj)
 a <- b <- matrix(1:100, ncol=2)
 a <- a[-20,]
 b <- b[-45,]
