@@ -3,7 +3,7 @@ Type: Package
 Title: Diffs for R Objects
 Description: Generate a colorized diff of two R objects for an intuitive
     visualization of their differences.
-Version: 0.1.11
+Version: 0.1.11.1
 Date: 2018-07-28
 Authors@R: c(
     person(
@@ -28,10 +28,10 @@ Collate: 'capt.R' 'pager.R' 'check.R' 'finalizer.R' 'misc.R' 'html.R'
         'word.R'
 Imports: crayon (>= 1.3.2), tools, methods, utils, stats
 NeedsCompilation: yes
-Packaged: 2018-07-29 01:33:30 UTC; bg
+Packaged: 2019-01-13 15:14:46 UTC; ripley
 Author: Brodie Gaslam [aut, cre],
   Michael B. Allen [ctb, cph] (Original C implementation of Myers Diff
     Algorithm)
 Maintainer: Brodie Gaslam <brodie.gaslam@yahoo.com>
 Repository: CRAN
-Date/Publication: 2018-07-29 13:10:02 UTC
+Date/Publication: 2019-01-13 16:42:03 UTC
