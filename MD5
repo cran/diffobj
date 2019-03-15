@@ -1,6 +1,6 @@
-1c39170ec7afe05f566eac4ccca8263f *DESCRIPTION
+20d1f729953fe0a6931ee2691de6dad7 *DESCRIPTION
 0628e2ec81627166d3386a121bbf8dd6 *NAMESPACE
-de5e66b3e68b9fe7b96653f36a1a0523 *NEWS.md
+9a9900c6568961416e4a5028d090774b *NEWS.md
 9af98ebd341c65321874c7b93826c464 *R/capt.R
 6ea8df817528fefed169718c3bad681c *R/check.R
 37300a175705d88475b30709bf981e60 *R/core.R
@@ -94,7 +94,7 @@ a781aa55007885ab32eafa432f2e0d4d *man/view_or_browse.Rd
 adda75359ceeb291eaeb1903400f87e2 *src/diffobj.c
 3a4d96a207313f8d062a150984b5b280 *src/diffobj.h
 5b752a841b887c1ad5c862eb6679d9f6 *src/init.c
-b43ae6d90a2384d83b369168d49f3e60 *tests/run.R
+a55e6367c7c2a8c210120433c90b2ebd *tests/run.R
 946cfa6f36d73c11f810e608630a76b2 *tests/scaling.R
 1b21b8cb7dd03fed7de67aa8a6726d91 *tests/testthat/helper.commonobjects.R
 a45701a8a943fee86e2f7bfea68c554e *tests/testthat/helper/atomic/100.rds
