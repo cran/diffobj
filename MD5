@@ -1,6 +1,6 @@
-a5b064c2c6aab9a9f9b0b8cf1168bde8 *DESCRIPTION
+2340908e723de22c101289d579b5e998 *DESCRIPTION
 bbc17071abfcc844cddf5a1dfa16af7b *NAMESPACE
-f663b41687f8abc097ab69143f2258d1 *NEWS.md
+1addde03cbd94ce96a595ab1cbb0f867 *NEWS.md
 e942e7d1bda7cb2367dafa9194d98510 *R/capt.R
 e60bc70bbb48df2b32e642e3a0180c84 *R/check.R
 2056f034224223c2c7ab45cf4f375fdc *R/core.R
@@ -18,7 +18,7 @@ a48e8f0a896ab097acdae0a64d361f6e *R/myerssimple.R
 5946916f850fb8ef79b645e4e5e00712 *R/rdiff.R
 b118eaaee935ede4c58e6b6d4f2d2d92 *R/rds.R
 08c787d546c7bf53a33cfa942bdd7269 *R/s4.R
-da455a7f1273d4776c7792009ac21285 *R/set.R
+43de6130859504783a1457201ece0de7 *R/set.R
 827000230f86c6255e1559884bb4ac4c *R/styles.R
 37ccee8c8aadc2e1dbf670b74d401931 *R/subset.R
 104fd55d9101d7d81512c77b47e92f29 *R/summmary.R
@@ -27,8 +27,8 @@ da455a7f1273d4776c7792009ac21285 *R/set.R
 e50505ce3363416b13b26efa5cc50c9f *R/tochar.R
 a30ede0b31575e036a34dc338c638163 *R/trim.R
 2441f03b14d1f9ed0326a6c081962166 *R/word.R
-9028babf2f15116824dbb5d7960a668c *README.md
-fde32047a463b7696a2e9c462aaa9ec5 *build/vignette.rds
+18cb73ac09154ba674e2ad10b8fab850 *README.md
+7397ebd35a1c4ea683fe81cb345c6a46 *build/vignette.rds
 6fc161114989c354f36430436947dbfd *inst/COPYRIGHTS
 4522b9ebe26e4d989bc7a27f933e3d21 *inst/css/diffobj.css
 7076bea0a51f0cc75fcba4f2c8ad4078 *inst/doc/diffobj.R
@@ -38,8 +38,8 @@ d9b10adda8de36a85376cae8ecb9f552 *inst/doc/embed.R
 9e93047aa59973c6475724b83fc6c321 *inst/doc/embed.Rmd
 214b23fa9235cdae84342bd56f5711f0 *inst/doc/embed.html
 f062d216d8fb1e2bccddffdc2c14193a *inst/doc/metacomp.R
-dd768a6e630251f3773bb13c6e2b7804 *inst/doc/metacomp.Rmd
-e8d8100226ccf145855e29b89f0b5614 *inst/doc/metacomp.html
+181fffbef17260dbd8c53e4d36ee9aac *inst/doc/metacomp.Rmd
+04217e09e1c47d1969e71aec1ab20645 *inst/doc/metacomp.html
 c5e7dbd23795fa6ce09b96ebda7d888d *inst/script/diffobj.js
 31419b3dc6ce97ed3345f193b7656d50 *man/AlignThreshold-class.Rd
 93b232974dcc5131b6d2d3614b5e90bc *man/Diff-class.Rd
@@ -94,7 +94,7 @@ e9229f6566360196d77bd5a663a8286e *src/diff.c
 adda75359ceeb291eaeb1903400f87e2 *src/diffobj.c
 3a4d96a207313f8d062a150984b5b280 *src/diffobj.h
 5b752a841b887c1ad5c862eb6679d9f6 *src/init.c
-b29b8c026e40fef8f624a79d96312bd6 *tests/run.R
+1168800df0725b1282e24114f8ed60ff *tests/run.R
 946cfa6f36d73c11f810e608630a76b2 *tests/scaling.R
 1b21b8cb7dd03fed7de67aa8a6726d91 *tests/testthat/helper.commonobjects.R
 a45701a8a943fee86e2f7bfea68c554e *tests/testthat/helper/atomic/100.rds
@@ -295,7 +295,7 @@ d77aedc2923d386b78347712d494644e *tests/testthat/testthat.html.R
 29483d0a3d01cc69e3dd0e188d94e89d *tests/testthat/testthat.limit.R
 24d78e63ebf532444d173c0665003204 *tests/testthat/testthat.methods.R
 c3cac5120e020a653baf84bb8a62a88d *tests/testthat/testthat.misc.R
-270c58f0bd9121c1ec0e167d380ab5bb *tests/testthat/testthat.pager.R
+ac43194d7ee5b84cc50edce50ed853ec *tests/testthat/testthat.pager.R
 22c2173bc659345febaa237b93a57b76 *tests/testthat/testthat.rrdiff.R
 b167459846aaf5d17f7d5ce054148826 *tests/testthat/testthat.s4.R
 e437fd69a45c27bea6730cb08174bf1e *tests/testthat/testthat.ses.R
@@ -313,5 +313,5 @@ cbc6489a2d892932cc981539af1e3228 *tests/valgrind/tests-valgrind.R
 b2d7b4d93f4eab544203b2d4160e0583 *vignettes/ansi256brightness.png
 b030819a35d24fb09b3eb8d60f9aa369 *vignettes/diffobj.Rmd
 9e93047aa59973c6475724b83fc6c321 *vignettes/embed.Rmd
-dd768a6e630251f3773bb13c6e2b7804 *vignettes/metacomp.Rmd
+181fffbef17260dbd8c53e4d36ee9aac *vignettes/metacomp.Rmd
 53121e5e594fc9814e2f89ebfeeccf28 *vignettes/styles.css

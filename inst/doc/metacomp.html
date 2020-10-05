@@ -508,6 +508,9 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 </div>
 
 <p>Most R object comparison functions are good at telling you that objects are different, but less so at conveying <em>how</em> they are different. I wrote <code>diffobj</code> to provide an “aha, that’s how they are different” comparison. In this vignette I will compare <code>diffPrint</code> to <code>all.equal</code> and to <code>testthat::compare</code>.</p>
+<blockquote>
+<p>Update: <code>testthat</code> now uses <code>waldo</code>, which internally uses <code>diffobj</code> to compute diffs. <code>waldo::compare</code> does a much better job of reporting differences than the old <code>testthat::compare</code>.</p>
+</blockquote>
 <p>Disclaimer: I picked the examples here to showcase <code>diffobj</code> capabilities, not to carry out a fair and balanced comparison of these comparison functions. Nonetheless, I hope you will find the examples representative of common situations where comparison of R objects is useful.</p>
 <div id="vectors" class="section level2">
 <h2>Vectors</h2>
