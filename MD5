@@ -1,6 +1,6 @@
-58bdba0c1d532e5e990b3881fcde855c *DESCRIPTION
+75ca6e78fe9bdfe16dc206d222bbd685 *DESCRIPTION
 8ebc8bbb2dbb0fd5a14b0559163a46e9 *NAMESPACE
-5c86f37f124d993980673d5f71fff142 *NEWS.md
+f25999a428253b2d4e9921c213acfbdf *NEWS.md
 49d3d45d7f8fbd5039931dec5e0a75ad *R/capt.R
 15c25fba7f29c1ca25339d50c9db24e3 *R/check.R
 bf5c59ca0690d04818f1dc08e4f125ae *R/core.R
@@ -93,7 +93,7 @@ eea2cb88f3d7f5ab081b4396715c447c *src/diffobj.c
 5b752a841b887c1ad5c862eb6679d9f6 *src/init.c
 a7b2148e0e6c112c8724679fea3e80e4 *tests/_helper/breakdown.R
 fc5f397522504e0bce404a5c2a5246e6 *tests/_helper/check.R
-93a11280184e036685a9cd4c24d0ed78 *tests/_helper/commonobjects.R
+0a8884d82ebfba899364036b1435c0f3 *tests/_helper/commonobjects.R
 168a72d71281bdb4c60a4546213dcd1a *tests/_helper/init.R
 a45701a8a943fee86e2f7bfea68c554e *tests/_helper/objs/atomic/100.rds
 dc3f364393561bd18b20d84286c3b7c7 *tests/_helper/objs/atomic/1000.rds
@@ -172,7 +172,7 @@ cfd11512ac2c0336d5f7ae6dcd3952b4 *tests/_helper/objs/diffFile/100.rds
 1483c33e014566ac7c0307b4f875a190 *tests/_helper/objs/diffObj/100.rds
 79eb3fb9a4533231c16a88da7c7e67f1 *tests/_helper/objs/diffObj/200.rds
 3d2afca44733f3900578b5139c80ac6e *tests/_helper/objs/diffObj/300.rds
-f28316a1fc903d296643e6730589f6de *tests/_helper/objs/diffObj/400.rds
+509dc3ff89dae767139f744582c48a65 *tests/_helper/objs/diffObj/400.rds
 37b17feb793bf07a25b90bea54db8dd5 *tests/_helper/objs/diffPrint/100.rds
 85499e94ba78e61b81abb0a18c518aad *tests/_helper/objs/diffPrint/100.txt
 60381bf784f270725eaf5f886df2e40f *tests/_helper/objs/diffPrint/1000.rds
@@ -220,15 +220,15 @@ a35c08e11e8d7c403e3177c13a2d65f9 *tests/_helper/objs/diffPrint/3100.rds
 f6b17f580422089c84bf2c16cea8579a *tests/_helper/objs/diffPrint/700.rds
 cf0a10ed0b7939dfbd33366fbfe353c2 *tests/_helper/objs/diffPrint/800.rds
 3732b9b1ed11bd4171627347310ee847 *tests/_helper/objs/diffPrint/900.rds
-e1b09bf3fffdaac6189e86f1c49594b0 *tests/_helper/objs/diffStr/100.rds
+739626b76d9ed244a38adb2ae1dbed80 *tests/_helper/objs/diffStr/100.rds
 8f8c0614f6610391dd23827baa721d2b *tests/_helper/objs/diffStr/100.txt
 64fc1bd339dd438d0b4dff9fb26c6dbf *tests/_helper/objs/diffStr/1000.rds
 d2ca22a1835e41ad7d0b60d1e0b4e252 *tests/_helper/objs/diffStr/1100.rds
 0aebb54ccae30a57fa40c9e94d5a0b79 *tests/_helper/objs/diffStr/200.rds
 8e82236f5a8dca6179790f610b9162e8 *tests/_helper/objs/diffStr/300.rds
 afc2ddbcbb06ad13195f6111d352b141 *tests/_helper/objs/diffStr/400.rds
-f16070308563105cd79766fcbe4731ce *tests/_helper/objs/diffStr/500.rds
-c3438a71e37e39840f52f78e161941d8 *tests/_helper/objs/diffStr/550.rds
+319142321734671d51dbb110e807052c *tests/_helper/objs/diffStr/500.rds
+a061c48a3eb4d809220d770d137607c5 *tests/_helper/objs/diffStr/550.rds
 3d2afca44733f3900578b5139c80ac6e *tests/_helper/objs/diffStr/600.rds
 60a797bb010593ff574c99320941a5c9 *tests/_helper/objs/diffStr/700.rds
 e816514b74dcc98245ed28dcd05b04e6 *tests/_helper/objs/diffStr/800.rds
